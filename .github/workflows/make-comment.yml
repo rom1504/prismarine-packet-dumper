@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: 18.x
     - name: Download artifact
-      uses: dawidd6/action-download-artifact@v2
+      uses: dawidd6/action-download-artifact@v6
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: ci.yml
